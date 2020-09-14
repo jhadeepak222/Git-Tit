@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*css variables*/
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#navbar ul li a:hover {
+  color: tomato;
+}
+
+#logo {
+  height: 100px;
+}
+
+#logo img {
+  height: 95px;
+  margin: 3px 6px;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+#home::before {
+  content: "";
+  background: url("bcg.jpg");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  float: left;
+}
+
+#home h2 {
+  color: white;
+  text-align: center;
+}
+
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#services {
+  display: flex;
+}
+
+#services.box {
+  border: 2px solid violet;
+}
+
+#services.box img {
+}
+
+#services {
+}
+
+#services {
+}
+
+.h-primary {
+  font-size: 1.7rem;
+  padding: 12px;
+}
+
+.h-secondary {
+  font-size: 5.5rem;
+  padding: 12px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: 2px solid white;
+  background-color: rgb(202, 15, 15);
+  color: white;
+  margin: 20px 17px;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+/* #services img {
+  height: 500px;
+  width: 500px;
+} */
+
+.center {
+  text-align: justify;
+}
+
+#services img {
+  height: 50%;
+  width: 100%;
+}
